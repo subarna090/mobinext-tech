@@ -8,11 +8,13 @@ body{
 }
 
 #social-icons{
-    margin:4px 5px;
+    margin:4px;
+    margin-left:30px;
     font-size:15px;
 }
 #top-ul ul{
     list-style-type: none;
+    margin-right: 30px;
 }
 
 #top-ul li{
@@ -30,5 +32,26 @@ body{
     color:black;
     font-size:15px;
 }
+ 
+#logo{
+    margin-top:-20px;
+    margin-left: 50px;
+}
+#navbar1{
+    background:#f0f3f5;
+    margin-bottom:0px;
+}
 
-kk
+#navbar1 ul{
+    padding:20px 0px;
+    margin-right: 45px;
+}
+#navbar1 ul a{
+    color:black;
+    font-family: arial;
+    font-size: 17px;
+}
+
+#navbar2{
+   padding:20px;
+}
