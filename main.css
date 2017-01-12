@@ -100,5 +100,12 @@ body{
 #address ul li{
     margin-bottom:-9px;
 }
- 
+
+#footer{
+    text-align: center;
+    background-color: #52539F;
+    color:#FFF;
+    font-size: 12px;
+    padding:5px;
+}
     
