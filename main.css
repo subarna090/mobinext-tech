@@ -34,11 +34,13 @@ body{
  
 #logo{
     margin-top:-20px;
-    margin-left: 50px;
 }
 #navbar1{
     background:#f0f3f5;
     margin-bottom:0px;
+}
+#navbar1-left ul{
+    background-color:#f0f3f5; 
 }
 
 #navbar1 ul{
@@ -49,6 +51,10 @@ body{
     color:black;
     font-family: arial;
     font-size: 17px;
+}
+
+#navbar1 ul a:hover{
+    background-color:#DEDCDE;
 }
 
 #navbar2{
@@ -108,4 +114,8 @@ body{
     font-size: 12px;
     padding:5px;
 }
-    
+
+/*hover dropdown menu*/
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
